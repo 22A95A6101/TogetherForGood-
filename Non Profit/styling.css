@@ -1,0 +1,176 @@
+.navbar {
+			background-color: whitesmoke;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color:black;
+        }
+
+        .navbar-dark .navbar-toggler-icon {
+            color:black;
+        }
+
+        .navbar-toggler:focus {
+            outline: none;
+        }
+.image{
+	height: 80px;
+	width: 80px;
+}
+.menu{
+    font-size: 22px;
+}
+
+/*3 sections*/
+.p1{
+    width: 90px; height: 90px;
+}
+.p2{
+    width: 100px; height: 100px;
+}
+.p3{
+    width: 100px; height: 100px;
+}
+.donate{
+    height: 500px;
+    width: 400px;
+
+}
+         .background-container {
+            position: relative;
+            background-image: url('images/pj.jpg');
+            background-size: cover;
+            width: 100%;
+            height: 500px; 
+            filter: blur(0.5px); 
+            
+            
+            
+        }
+
+       
+        .text-container {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: white;
+        }
+
+        
+        .heading {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        
+        .paragraph {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        
+        .btn {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+
+        .btn-primary {
+            background-color: blue;
+            color: white;
+        }
+
+        .btn-outline-primary {
+            border: 2px solid blue;
+            color: blue;
+        }
+
+       
+        
+        .blue-container {
+            background-color: blue;
+            color: white;
+            padding: 20px;
+        }
+
+        /* Style for the left side heading */
+        .left-heading {
+            font-weight: bold;
+            font-size: 40px;
+            margin-bottom: 20px;
+            margin-top: 30px;
+            margin-left:50px ;
+        }
+
+        
+        .button-row {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .custom-button {
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: white;
+            color: blue;
+            border: 2px solid blue;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            width: 180px;
+        }
+        .custom-button1 {
+            margin: 5px;
+            padding: 10px 20px;
+            color: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            width: 370px;
+        }
+        .outer-container {
+           
+            padding: 20px;
+
+            background-image: url('images/bg2.png'); 
+            background-size: cover;
+            text-align: center;
+            color: white;
+            height: 100%;
+            width: 100%;
+        }
+
+        
+        .centered-heading {
+            font-size: 40px;
+            font-weight: bold;
+            margin-top: 100px; 
+            margin-bottom: 50px; 
+
+        }
+
+        
+        .btn-volunteer {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            font-size: 28px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
